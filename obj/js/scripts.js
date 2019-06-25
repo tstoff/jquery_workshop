@@ -8,16 +8,32 @@ jQuery(function(){
 
     artistText.hide().addClass('hidden'); // hide the Text Field and add class to it <-- Chaining
 
+    // SIMPLE SOLUTION \/ \/ \/
+    // artistImage.on('mouseover', function(){
+    //     jQuery(this).fadeTo(200, 1.0);
+    // });
 
-    artistImage.on('mouseover', function(){
+    // artistImage.on('mouseleave', function(){
+    //     jQuery(this).fadeTo(200, 0.5);
+    // });
+
+    // artistImage.on('click', function(){
+    //     artistText.show();
+    //     artistText.removeClass('hidden');
+    // });
+
+    // BEST PRACTICE SOLUTION \/ \/ \/
+    var grid = jQuery('content');
+
+    grid.on('mouseover', '.artistImage', function(){
         jQuery(this).fadeTo(200, 1.0);
     });
 
-    artistImage.on('mouseleave', function(){
+    grid.on('mouseleave', '.artistImage', function(){
         jQuery(this).fadeTo(200, 0.5);
     });
 
-    artistImage.on('click', function(){
+    grid.on('click', '.artistImage', function(){
         artistText.show();
         artistText.removeClass('hidden');
     });
