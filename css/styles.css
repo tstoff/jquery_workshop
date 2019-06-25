@@ -11,14 +11,79 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     height: 80px;
-    padding: 10px;
+    padding-left: 20px;
 }
 
 .headerText {
     color: white;
     font-weight: bold;
+    padding-right:20px;
+}
+
+content {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto 200px 200px 200px 200px auto;
+    grid-template-rows: auto 200px auto;
+    grid-gap: 20px 20px;
+}
+
+.pageHeadline {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.artistImage {
+    width: 100%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.artistImage-1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.artistImage-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.artistImage-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.artistImage-4 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.artistText {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.artistHeadline {
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    display: block;
+    background-color: #002a54;
+    position: fixed;
+    bottom: 0;
 }
