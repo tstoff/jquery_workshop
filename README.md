@@ -1,12 +1,8 @@
 # jQuery Workshop
 Starting small, we use this template to fiddle around with jQuery.
 
-## First Task:
-- implement jQuery in this website
-    - use the file from the obj/js/ folder
-    - or use the google library
-        - https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
-
-- write a console output when the DOM is ready
+## Second Task:
+- Select all of the artist images and change their opacity to 0.5 with jQuery
+- Hide the text field with jQuery (just for learning purposes)
 
 Have fun :-)
