@@ -1,6 +1,6 @@
 # jQuery Workshop
 Starting small, we use this template to fiddle around with jQuery.
 
-## Fifth Task:
-- 
+## Solution for the Fifth Task
+
 Have fun :-)
