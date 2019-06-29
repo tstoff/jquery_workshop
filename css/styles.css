@@ -29,6 +29,12 @@ content {
     padding: 30px;
 }
 
+.artistImageWrapper {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+
 footer {
     height: 50px;
     width: 100%;
