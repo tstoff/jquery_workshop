@@ -16,8 +16,9 @@ jQuery(function(){
     // });
 
     // artistImage.on('click', function(){
+    //     artistImage.removeClass('highlight');
+    //     jQuery(this).addClass('highlight');
     //     artistText.show();
-    //     artistText.removeClass('hidden');
     // });
 
     // BEST PRACTICE SOLUTION \/ \/ \/
