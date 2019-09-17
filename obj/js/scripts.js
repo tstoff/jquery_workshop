@@ -6,8 +6,6 @@ jQuery(function(){
     artistImage.fadeTo(1000, 0.5); //    <-- ANIMATED OPACITY
     // artistImage.css('opacity', 0.5);  <-- INSTANT OPACITY
 
-    artistText.hide().addClass('hidden'); // hide the Text Field and add class to it <-- Chaining
-
     // SIMPLE SOLUTION \/ \/ \/
     // artistImage.on('mouseover', function(){
     //     jQuery(this).fadeTo(200, 1.0);
@@ -34,7 +32,8 @@ jQuery(function(){
     });
 
     grid.on('click', '.artistImage', function(){
+        artistImage.removeClass('highlight');
+        jQuery(this).addClass('highlight');
         artistText.show();
-        artistText.removeClass('hidden');
     });
 });

@@ -45,6 +45,7 @@ content {
     grid-row-start: 2;
     grid-row-end: 3;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .artistImage-1 {
@@ -78,6 +79,10 @@ content {
 
 .artistHeadline {
     margin-bottom: 10px;
+}
+
+.highlight {
+    border: 4px solid #fbba00;
 }
 
 footer {

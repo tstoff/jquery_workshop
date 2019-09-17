@@ -2,8 +2,7 @@
 Starting small, we use this template to fiddle around with jQuery.
 
 ## Fourth Task:
-- Use the JavaScript Object below to Mock a backend and display the text and the headline corresponding to the right artist picture
-    - Little Tip: Do not use jQuery only ;-)
+- Use the JavaScript Object below to Mock a backend and display the text and the headline corresponding to the chosen artist picture.
 
 Backend Object:
 ```json
