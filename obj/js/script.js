@@ -35,6 +35,9 @@ jQuery(function(){
     });
 
     grid.on('click', '.artistImage', function(){
+        artistImage.removeClass('highlight');
+        jQuery(this).addClass('highlight');
+        
         var artistId = jQuery(this).attr('data-artist');
         artistText.find('.artistHeadline').html(backendMock.artists[artistId].name);
         artistText.find('.artistDescription').html(backendMock.artists[artistId].text);
