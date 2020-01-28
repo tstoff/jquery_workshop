@@ -46,22 +46,22 @@ content {
     grid-row-end: 3;
 }
 
-.artistImage-1 {
+.artistImageColumn-1 {
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.artistImage-2 {
+.artistImageColumn-2 {
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-.artistImage-3 {
+.artistImageColumn-3 {
     grid-column-start: 4;
     grid-column-end: 5;
 }
 
-.artistImage-4 {
+.artistImageColumn-4 {
     grid-column-start: 5;
     grid-column-end: 6;
 }
